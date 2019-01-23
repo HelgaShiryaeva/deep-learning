@@ -1,0 +1,6 @@
+Epoch 68/70
+ - 36s - loss: 0.2006 - acc: 0.9285 - val_loss: 0.6199 - val_acc: 0.7835
+Epoch 69/70
+ - 36s - loss: 0.1937 - acc: 0.9307 - val_loss: 0.6255 - val_acc: 0.7825
+Epoch 70/70
+ - 35s - loss: 0.1900 - acc: 0.9313 - val_loss: 0.6269 - val_acc: 0.8010

@@ -1,0 +1,4 @@
+Epoch 29/30
+ - 40s - loss: 0.5533 - acc: 0.7861 - val_loss: 0.8768 - val_acc: 0.6590
+Epoch 30/30
+ - 40s - loss: 0.5616 - acc: 0.7806 - val_loss: 0.8430 - val_acc: 0.6930

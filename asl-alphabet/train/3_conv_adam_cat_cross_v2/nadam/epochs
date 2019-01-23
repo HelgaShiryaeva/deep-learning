@@ -1,0 +1,7 @@
+Epoch 48/50
+ - 69s - loss: 0.1515 - acc: 0.9490 - val_loss: 0.2233 - val_acc: 0.9255
+Epoch 49/50
+ - 68s - loss: 0.1447 - acc: 0.9485 - val_loss: 0.1699 - val_acc: 0.9275
+Epoch 50/50
+ - 69s - loss: 0.1398 - acc: 0.9530 - val_loss: 0.2420 - val_acc: 0.9130
+Saved model to disk

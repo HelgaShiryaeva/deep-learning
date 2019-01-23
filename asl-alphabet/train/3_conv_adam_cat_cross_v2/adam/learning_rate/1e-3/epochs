@@ -1,0 +1,7 @@
+Epoch 28/30
+ - 68s - loss: 0.0325 - acc: 0.9887 - val_loss: 0.1059 - val_acc: 0.9660
+Epoch 29/30
+ - 68s - loss: 0.0285 - acc: 0.9901 - val_loss: 0.0864 - val_acc: 0.9695
+Epoch 30/30
+ - 69s - loss: 0.0370 - acc: 0.9871 - val_loss: 0.2598 - val_acc: 0.9330
+Saved model to disk
