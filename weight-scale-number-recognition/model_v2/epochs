@@ -1,0 +1,9 @@
+Epoch 1/50
+ - 93s - loss: 0.2795 - acc: 0.9114 - val_loss: 0.1035 - val_acc: 0.9904
+Epoch 2/50
+ - 94s - loss: 0.2567 - acc: 0.9167 - val_loss: 0.1022 - val_acc: 0.9932
+Epoch 3/50
+ - 104s - loss: 0.2566 - acc: 0.9182 - val_loss: 0.1079 - val_acc: 0.9919
+Epoch 4/50
+ - 107s - loss: 0.2556 - acc: 0.9187 - val_loss: 0.1072 - val_acc: 0.9922
+Epoch 5/50
