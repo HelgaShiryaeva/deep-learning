@@ -1,0 +1,67 @@
+(venv) C:\Users\helga_sh\PycharmProjects\asl-alphabet\darkflow>python flow --model cfg/tiny-yolo-voc-11c.cfg --load bin/tiny-yolo-voc.weights --train --annotation new_model_data_11c/multi_annotations --dataset new_model_data_11c/images --epoch 600
+
+Parsing ./cfg/tiny-yolo-voc.cfg
+Parsing cfg/tiny-yolo-voc-11c.cfg
+Loading bin/tiny-yolo-voc.weights ...
+Successfully identified 63471556 bytes
+Finished in 0.005984067916870117s
+
+Building net ...
+Source | Train? | Layer description                | Output size
+-------+--------+----------------------------------+---------------
+       |        | input                            | (?, 416, 416, 3)
+ Load  |  Yep!  | conv 3x3p1_1  +bnorm  leaky      | (?, 416, 416, 16)
+ Load  |  Yep!  | maxp 2x2p0_2                     | (?, 208, 208, 16)
+ Load  |  Yep!  | conv 3x3p1_1  +bnorm  leaky      | (?, 208, 208, 32)
+ Load  |  Yep!  | maxp 2x2p0_2                     | (?, 104, 104, 32)
+ Load  |  Yep!  | conv 3x3p1_1  +bnorm  leaky      | (?, 104, 104, 64)
+ Load  |  Yep!  | maxp 2x2p0_2                     | (?, 52, 52, 64)
+ Load  |  Yep!  | conv 3x3p1_1  +bnorm  leaky      | (?, 52, 52, 128)
+ Load  |  Yep!  | maxp 2x2p0_2                     | (?, 26, 26, 128)
+ Load  |  Yep!  | conv 3x3p1_1  +bnorm  leaky      | (?, 26, 26, 256)
+ Load  |  Yep!  | maxp 2x2p0_2                     | (?, 13, 13, 256)
+ Load  |  Yep!  | conv 3x3p1_1  +bnorm  leaky      | (?, 13, 13, 512)
+ Load  |  Yep!  | maxp 2x2p0_1                     | (?, 13, 13, 512)
+ Load  |  Yep!  | conv 3x3p1_1  +bnorm  leaky      | (?, 13, 13, 1024)
+ Load  |  Yep!  | conv 3x3p1_1  +bnorm  leaky      | (?, 13, 13, 1024)
+ Init  |  Yep!  | conv 1x1p0_1    linear           | (?, 13, 13, 80)
+-------+--------+----------------------------------+---------------
+Running entirely on CPU
+cfg/tiny-yolo-voc-11c.cfg loss hyper-parameters:
+        H       = 13
+        W       = 13
+        box     = 5
+        classes = 11
+        scales  = [1.0, 5.0, 1.0, 1.0]
+Building cfg/tiny-yolo-voc-11c.cfg loss
+Building cfg/tiny-yolo-voc-11c.cfg training op
+2018-12-22 14:50:56.023881: I C:\tf_jenkins\workspace\rel-win\M\windows\PY\36\tensorflow\core\platform\cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX AVX2
+Finished in 3.922528028488159s
+
+Enter training ...
+
+cfg/tiny-yolo-voc-11c.cfg parsing new_model_data_11c/multi_annotations
+Parsing for ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10']
+[====================>]100%  IMG_20181004_140512.xml
+Statistics:
+1: 96
+8: 85
+5: 58
+10: 151
+7: 47
+9: 71
+4: 102
+3: 90
+0: 68
+2: 95
+6: 44
+Dataset size: 152
+Dataset of 152 instance(s)
+Training statistics:
+        Learning rate : 1e-05
+        Batch size    : 16
+        Epoch number  : 600
+        Backup every  : 2000
+step 1 - loss 112.1446533203125 - moving ave loss 112.1446533203125
+step 2 - loss 111.02806854248047 - moving ave loss 112.03299484252929
+
