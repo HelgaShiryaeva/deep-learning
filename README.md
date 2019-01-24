@@ -1,8 +1,9 @@
-## Hello, here you can find some demos, models, training processes and utils
+# Hello,
+## here you can find some demos, models, training processes and utils
 ## that helpled me to solve some problems dedicated to classification
 ## and detection
 ## 
-# Things tried and pleasant tools :
+## Things tried and pleasant tools :
 ## 
 # Images:
 ## 
